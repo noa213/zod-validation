@@ -1,5 +1,5 @@
 import React from "react";
-import Validation from "@/app/components/validation";
+import Validation from "@/app/components/Validation";
 
 const page = () => {
   return <Validation />;
