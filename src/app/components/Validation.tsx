@@ -4,7 +4,7 @@ import Errors from "@/app/types/errors";
 import React, { useState } from "react";
 import { z, ZodError } from "zod";
 
-const validation = () => {
+const Validation = () => {
   const userSchema = z.object({
     idNumber: z.string().min(9, "ID must contain at least 9 characters"),
     firstName: z
@@ -153,4 +153,4 @@ const validation = () => {
   );
 };
 
-export default validation;
+export default Validation;
